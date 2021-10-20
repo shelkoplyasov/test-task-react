@@ -1,0 +1,20 @@
+.todo-input {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    border: solid .2px #EDEDED;
+}
+.todo-input_targer {
+    flex-grow: 1;
+}
+.todo_info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.todo_text {
+    flex-grow: 1;
+    height: 100%;
+}

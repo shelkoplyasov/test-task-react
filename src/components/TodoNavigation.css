@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border: solid .2px #EDEDED;
+    align-items: center;
+    padding: 0 16px;
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.filter_item--active {
+    border: solid 1px #000;
+}
+.navigation_filter--hidden {
+    visibility: hidden;
+}
